@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,13 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fl2-Tc-wZJ">
-                                <frame key="frameInset" minX="80" minY="449" width="214" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-3I-ALw">
-                                <frame key="frameInset" minY="200" width="375" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fl2-Tc-wZJ"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-3I-ALw">
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="42"/>
                                 <state key="normal" title="Treat Yo Cat">
                                     <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,6 +30,14 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="xqx-3I-ALw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="F5a-W0-MvD"/>
+                            <constraint firstAttribute="trailing" secondItem="xqx-3I-ALw" secondAttribute="trailing" id="IUk-id-nrr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fl2-Tc-wZJ" secondAttribute="bottom" id="TAc-pv-UgQ"/>
+                            <constraint firstItem="xqx-3I-ALw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="gUB-4K-6FQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fl2-Tc-wZJ" secondAttribute="trailing" id="lZ2-ZL-eg3"/>
+                            <constraint firstItem="fl2-Tc-wZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ou2-fI-ziI"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="FeedCat" destination="xqx-3I-ALw" id="yZ6-Ck-gQN"/>

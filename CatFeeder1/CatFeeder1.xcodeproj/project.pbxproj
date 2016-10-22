@@ -24,6 +24,7 @@
 		03BECB561DBB001B00BE63F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BECB541DBB001B00BE63F1 /* LaunchScreen.storyboard */; };
 		03BECB611DBB001B00BE63F1 /* CatFeeder1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BECB601DBB001B00BE63F1 /* CatFeeder1Tests.swift */; };
 		03BECB6C1DBB001B00BE63F1 /* CatFeeder1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BECB6B1DBB001B00BE63F1 /* CatFeeder1UITests.swift */; };
+		1CE6D87B1DBC009F00A9160F /* Alamofire-master in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6D87A1DBC009F00A9160F /* Alamofire-master */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +187,7 @@
 		03BECB671DBB001B00BE63F1 /* CatFeeder1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFeeder1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BECB6B1DBB001B00BE63F1 /* CatFeeder1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFeeder1UITests.swift; sourceTree = "<group>"; };
 		03BECB6D1DBB001B00BE63F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE6D87A1DBC009F00A9160F /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../Alamofire-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 		03BECB3F1DBB001B00BE63F1 = {
 			isa = PBXGroup;
 			children = (
+				1CE6D87A1DBC009F00A9160F /* Alamofire-master */,
 				03A13CE71DBBF9C3007D699B /* meow.mp3 */,
 				03405BF31DBB07AD00D8590F /* Alamofire.xcodeproj */,
 				03A13CCA1DBBF6DA007D699B /* Alamofire.xcodeproj */,
@@ -532,6 +535,7 @@
 				03BECB531DBB001B00BE63F1 /* Assets.xcassets in Resources */,
 				03405C231DBB1FCC00D8590F /* cutecat.jpg in Resources */,
 				03BECB511DBB001B00BE63F1 /* Main.storyboard in Resources */,
+				1CE6D87B1DBC009F00A9160F /* Alamofire-master in Resources */,
 				03405C1F1DBB1D9300D8590F /* sky1.png in Resources */,
 				03405C211DBB1E0D00D8590F /* happy.jpg in Resources */,
 			);
