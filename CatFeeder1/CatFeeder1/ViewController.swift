@@ -25,13 +25,19 @@ class ViewController: UIViewController {
     @IBAction func FeedCat(_ sender: AnyObject) {
         audioPlayer.play()
         
+        //let url = NSURL(string: "http://anujmacbook.local:8888/")
+        
+        //Alamofire.request("http://anujmacbook.local:8888/")
+        
+        Alamofire.request("http://anujmacbook.local:8888/").responseJSON { response in
+            print(response.request)
+        }
+        
         
         
         
     }
- 
-    @IBAction func TreatCat(_ sender: AnyObject) {
-    }
+    
     /*
     func setGradientBackground() {
         let colorTop =  UIColor(red: 255.0/255.0, green: 149.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor

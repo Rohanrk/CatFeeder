@@ -257,6 +257,7 @@
 				03BECB491DBB001B00BE63F1 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		03BECB491DBB001B00BE63F1 /* Products */ = {
 			isa = PBXGroup;
