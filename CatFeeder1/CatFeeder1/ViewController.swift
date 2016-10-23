@@ -23,15 +23,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func FeedCat(_ sender: AnyObject) {
-        audioPlayer.play()
-        
+
         //let url = NSURL(string: "http://anujmacbook.local:8888/")
-        
-        //Alamofire.request("http://anujmacbook.local:8888/")
         
         Alamofire.request("http://anujmacbook.local:8888/").responseJSON { response in
             print(response.request)
         }
+        audioPlayer.play()
         
         
         
@@ -82,9 +80,5 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //Make a request to CatFeeder server
-    //Alamofire.request("")
-    
-    //
 }
 
